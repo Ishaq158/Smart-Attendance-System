@@ -21,25 +21,6 @@ The Smart Attendance System is a Java-based mini project developed to automate a
 
 ---
 
-## 📂 Project Structure
-Smart-Attendance-System/
-│
-├── src/
-│ └── com/
-│ └── smartattendance/
-│ ├── camera/ # Camera initialization and frame capture
-│ ├── detection/ # Face detection logic using OpenCV
-│ ├── database/ # CSV file handling for attendance storage
-│ └── MainApp.java # Main application entry point
-│
-├── README.md
-└── .gitignore
-
-yaml
-Copy code
-
----
-
 ## 📊 Dataset Description
 This project uses a CSV file as the dataset to store attendance information. Each time a face is detected by the camera, an entry is created in the CSV file containing the date and time. No trained facial data or registered student database is used in this project.
 
